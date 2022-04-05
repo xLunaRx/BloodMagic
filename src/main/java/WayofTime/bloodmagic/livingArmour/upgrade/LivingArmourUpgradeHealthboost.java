@@ -15,7 +15,7 @@ import org.apache.commons.codec.binary.StringUtils;
 import java.util.UUID;
 
 public class LivingArmourUpgradeHealthboost extends LivingArmourUpgrade {
-    public static final int[] costs = new int[]{5, 12, 20, 35, 49, 78, 110, 160, 215, 320};
+    public static final int[] costs = new int[]{5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
     public static final int[] healthModifier = new int[]{4, 8, 12, 16, 20, 26, 32, 38, 44, 50};
 
     public LivingArmourUpgradeHealthboost(int level) {
